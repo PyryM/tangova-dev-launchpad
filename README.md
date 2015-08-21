@@ -15,4 +15,4 @@ A shell cordova app with the tangova tango bindings plugin and maximally permiss
 Through cordova: `cordova run android`
 
 ## Setting up your app for remote loading
-Cordova creates a number of .js files that it needs to be able to get in order to use its plugins. After building, these reside in `platforms/android/assets/www`. To get your app to work properly remotely you need to serve that directory. 
+Cordova creates a number of .js files that it needs to be able to get in order to use its plugins. After building, these reside in `platforms/android/assets/www`. For convenience (so you can develop on a machine without having to install cordova), this built folder is committed in the repo in `remote_www/`-- simply copy those files into the directory that you will be serving your app from.
